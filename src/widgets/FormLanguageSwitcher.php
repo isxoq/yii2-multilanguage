@@ -1,6 +1,6 @@
 <?php
 
-namespace ninja\multilingual\widgets;
+namespace isxoq\multilingual\widgets;
 
 use Yii;
 

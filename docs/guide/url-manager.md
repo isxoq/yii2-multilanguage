@@ -17,7 +17,7 @@ in your application configuration. This is an example of configuration:
 
     'components' => [
         'urlManager' => [
-            'class' => 'ninja\multilingual\web\MultilingualUrlManager',
+            'class' => 'isxoq\multilingual\web\MultilingualUrlManager',
             'showScriptName' => false,
             'enablePrettyUrl' => true,
             'rules' => [
@@ -63,7 +63,7 @@ forms, widgets and URL manager.
 ```php
 <?php
 
-    use ninja\multilingual\widgets\LanguageSwitcher;
+    use isxoq\multilingual\widgets\LanguageSwitcher;
 
     echo LanguageSwitcher::widget([
         'languages' => [

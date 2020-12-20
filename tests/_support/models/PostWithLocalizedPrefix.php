@@ -2,7 +2,7 @@
 
 namespace models;
 
-use ninja\multilingual\behaviors\MultilingualBehavior;
+use isxoq\multilingual\behaviors\MultilingualBehavior;
 
 class PostWithLocalizedPrefix extends PostCustomized
 {

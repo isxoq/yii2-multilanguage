@@ -2,9 +2,9 @@
 
 namespace models;
 
-use ninja\multilingual\behaviors\MultilingualBehavior;
-use ninja\multilingual\db\MultilingualLabelsTrait;
-use ninja\multilingual\db\MultilingualQuery;
+use isxoq\multilingual\behaviors\MultilingualBehavior;
+use isxoq\multilingual\db\MultilingualLabelsTrait;
+use isxoq\multilingual\db\MultilingualQuery;
 
 class Page extends \yii\db\ActiveRecord
 {

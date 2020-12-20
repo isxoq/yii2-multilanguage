@@ -1,10 +1,10 @@
 <?php
 
-namespace ninja\multilingual\widgets;
+namespace isxoq\multilingual\widgets;
 
 use Yii;
-use ninja\multilingual\widgets\FormLanguageSwitcher;
-use ninja\multilingual\containers\MultilingualFieldContainer;
+use isxoq\multilingual\widgets\FormLanguageSwitcher;
+use isxoq\multilingual\containers\MultilingualFieldContainer;
 
 /**
  * Multilingual ActiveForm
@@ -14,7 +14,7 @@ class ActiveForm extends \yii\bootstrap\ActiveForm
     /**
      * @var string the default field class name when calling [[field()]] to create a new field.
      */
-    public $fieldClass = 'ninja\multilingual\widgets\ActiveField';
+    public $fieldClass = 'isxoq\multilingual\widgets\ActiveField';
 
     /**
      * 

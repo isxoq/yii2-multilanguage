@@ -1,9 +1,9 @@
 <?php
 
-namespace ninja\multilingual\behaviors;
+namespace isxoq\multilingual\behaviors;
 
 use yii\base\UnknownPropertyException;
-use ninja\multilingual\helpers\MultilingualHelper;
+use isxoq\multilingual\helpers\MultilingualHelper;
 
 trait MultilingualBehaviorTrait
 {

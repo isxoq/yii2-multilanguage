@@ -1,9 +1,9 @@
 <?php
 
-namespace ninja\multilingual\containers;
+namespace isxoq\multilingual\containers;
 
 use yii\base\BaseObject;
-use ninja\multilingual\helpers\MultilingualHelper;
+use isxoq\multilingual\helpers\MultilingualHelper;
 
 class MultilingualFieldContainer extends BaseObject
 {

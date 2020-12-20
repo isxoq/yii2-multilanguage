@@ -1,7 +1,7 @@
 <?php
 
 use yii\helpers\Html;
-use ninja\multilingual\assets\FormLanguageSwitcherAsset;
+use isxoq\multilingual\assets\FormLanguageSwitcherAsset;
 
 /* @var $this yii\web\View */
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace ninja\multilingual\helpers;
+namespace isxoq\multilingual\helpers;
 
 use Yii;
 use yii\helpers\Inflector;

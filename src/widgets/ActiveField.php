@@ -1,10 +1,10 @@
 <?php
 
-namespace ninja\multilingual\widgets;
+namespace isxoq\multilingual\widgets;
 
 use Yii;
-use ninja\multilingual\helpers\MultilingualHelper;
-use ninja\multilingual\assets\FormLanguageSwitcherAsset;
+use isxoq\multilingual\helpers\MultilingualHelper;
+use isxoq\multilingual\assets\FormLanguageSwitcherAsset;
 
 /**
  * @inheritdoc

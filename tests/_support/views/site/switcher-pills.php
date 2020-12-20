@@ -1,6 +1,6 @@
 <?php
 
-use ninja\multilingual\widgets\LanguageSwitcher;
+use isxoq\multilingual\widgets\LanguageSwitcher;
 
 /* @var $this yii\web\View */
 

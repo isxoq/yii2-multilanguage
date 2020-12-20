@@ -25,7 +25,7 @@ return [
             ]
         ],
         'urlManager' => [
-            'class' => ninja\multilingual\web\MultilingualUrlManager::className(),
+            'class' => isxoq\multilingual\web\MultilingualUrlManager::className(),
             'showScriptName' => false,
             'enablePrettyUrl' => true,
             'rules' => [

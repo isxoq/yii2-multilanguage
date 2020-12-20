@@ -1,12 +1,12 @@
 <?php
 
-namespace ninja\multilingual\web;
+namespace isxoq\multilingual\web;
 
 use Yii;
 use yii\web\UrlManager;
 use yii\web\Application;
 use yii\web\NotFoundHttpException;
-use ninja\multilingual\helpers\MultilingualHelper;
+use isxoq\multilingual\helpers\MultilingualHelper;
 
 class MultilingualUrlManager extends UrlManager
 {

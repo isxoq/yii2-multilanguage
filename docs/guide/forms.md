@@ -49,7 +49,7 @@ class SiteController extends Controller
 <?php
 
 use yii\helpers\Html;
-use ninja\multilingual\widgets\ActiveForm;
+use isxoq\multilingual\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
 ?>
@@ -76,7 +76,7 @@ use ninja\multilingual\widgets\ActiveForm;
 
 ```
 
-`ninja\multilingual\widgets\ActiveForm` form looks and bahaves in the same way as `\yii\bootstrap\ActiveForm`.
+`isxoq\multilingual\widgets\ActiveForm` form looks and bahaves in the same way as `\yii\bootstrap\ActiveForm`.
 The only difference is using of language switcher `echo $form->languageSwitcher($model)`. This code render widget to switch between languages.
 But this is optional. If there is no language switcher all multilingual fields will be rendered one by one.
 

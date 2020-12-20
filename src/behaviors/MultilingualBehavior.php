@@ -1,6 +1,6 @@
 <?php
 
-namespace ninja\multilingual\behaviors;
+namespace isxoq\multilingual\behaviors;
 
 use Yii;
 use yii\base\Behavior;
@@ -9,7 +9,7 @@ use yii\base\InvalidConfigException;
 use yii\db\ActiveQuery;
 use yii\db\ActiveRecord;
 use yii\validators\Validator;
-use ninja\multilingual\helpers\MultilingualHelper;
+use isxoq\multilingual\helpers\MultilingualHelper;
 
 class MultilingualBehavior extends Behavior
 {

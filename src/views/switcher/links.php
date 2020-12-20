@@ -2,7 +2,7 @@
 
 use yii\helpers\Html;
 use yii\helpers\ArrayHelper;
-use ninja\multilingual\assets\LanguageSwitcherAsset;
+use isxoq\multilingual\assets\LanguageSwitcherAsset;
 
 /* @var $this yii\web\View */
 

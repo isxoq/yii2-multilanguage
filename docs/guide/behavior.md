@@ -70,9 +70,9 @@ with model class:
 
 namespace common\models;
 
-use ninja\multilingual\behaviors\MultilingualBehavior;
-use ninja\multilingual\db\MultilingualLabelsTrait;
-use ninja\multilingual\db\MultilingualQuery;
+use isxoq\multilingual\behaviors\MultilingualBehavior;
+use isxoq\multilingual\db\MultilingualLabelsTrait;
+use isxoq\multilingual\db\MultilingualQuery;
 
 class Post extends \yii\db\ActiveRecord
 {
@@ -121,9 +121,9 @@ class Post extends \yii\db\ActiveRecord
 
 Three steps to create multilingual model:
 
-1. Add `ninja\multilingual\behaviors\MultilingualBehavior` behavior to model. Name of the behavior must be `multilingual`. Only `attributes` parameter is  required. You can specify `languages` either in the behavior or in application's parameters.
-2. Method `find` must return `ninja\multilingual\db\MultilingualQuery`. You can either override `find` method of the model or use `yeesoft\multilingual\db\MultilingualTrait` in your `ActiveQuery` class.
-3. Use `ninja\multilingual\db\MultilingualLabelsTrait` to fix generating attribute labels for multilingual fields. This step is optional.
+1. Add `isxoq\multilingual\behaviors\MultilingualBehavior` behavior to model. Name of the behavior must be `multilingual`. Only `attributes` parameter is  required. You can specify `languages` either in the behavior or in application's parameters.
+2. Method `find` must return `isxoq\multilingual\db\MultilingualQuery`. You can either override `find` method of the model or use `yeesoft\multilingual\db\MultilingualTrait` in your `ActiveQuery` class.
+3. Use `isxoq\multilingual\db\MultilingualLabelsTrait` to fix generating attribute labels for multilingual fields. This step is optional.
 
 
 Usage

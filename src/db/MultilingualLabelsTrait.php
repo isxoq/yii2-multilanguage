@@ -1,6 +1,6 @@
 <?php
 
-namespace ninja\multilingual\db;
+namespace isxoq\multilingual\db;
 
 /**
  * Multilingual attribute labels trait.

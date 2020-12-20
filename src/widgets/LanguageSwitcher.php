@@ -1,10 +1,10 @@
 <?php
 
-namespace ninja\multilingual\widgets;
+namespace isxoq\multilingual\widgets;
 
 use Yii;
 use yii\helpers\ArrayHelper;
-use ninja\multilingual\helpers\MultilingualHelper;
+use isxoq\multilingual\helpers\MultilingualHelper;
 
 class LanguageSwitcher extends \yii\base\Widget
 {

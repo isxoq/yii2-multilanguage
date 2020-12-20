@@ -1,6 +1,6 @@
 <?php
 
-namespace ninja\multilingual\assets;
+namespace isxoq\multilingual\assets;
 
 use yii\web\AssetBundle;
 

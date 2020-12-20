@@ -1,5 +1,5 @@
 <?php
-namespace ninja\multilingual\db;
+namespace isxoq\multilingual\db;
 
 use yii\db\ActiveQuery;
 
